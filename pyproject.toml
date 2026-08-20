@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+markers = [
+    "integration: tests that build and run the real C simulator over TCP",
+    "simulator_args(*args): extra CLI args to launch the simulator fixture with",
+]
+testpaths = ["tests"]

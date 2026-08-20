@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.swp
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# C build output
+simulator/build/
+simulator/*.o
+simulator/simulator
+simulator/simulator.exe
+
+# extraction demo output
+framework/examples/extracted/
+extracted/
